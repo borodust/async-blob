@@ -1,4 +1,4 @@
-(asdf:defsystem async-blob
+(asdf:defsystem uv-blob
   :author "Pavel Korolev"
   :description "UV foreign library collection"
   :license "MIT"
@@ -8,5 +8,4 @@
               ((:darwin :x86) "libuv.dylib.bodged" "x86/")
               ((:unix (:not :darwin) :x86-64) "libuv.so.bodged" "x86_64/")
               ((:unix (:not :darwin) :x86) "libuv.so.bodged" "x86/")
-              ((:windows :x86-64) "libuv.dll.bodged" "x86_64/")
-              ((:windows :x86) "libuv.dll.bodged" "x86/")))
+              ((:windows :x86-64) "libuv.dll.bodged" "x86_64/")))
